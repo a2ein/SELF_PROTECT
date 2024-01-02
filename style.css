@@ -14,7 +14,7 @@ position: fixed;
 width: 100%;
 
 padding: 7px;
-
+background-color: rgba(245, 245, 245, 0.87);
 
 
 }
@@ -119,3 +119,9 @@ flex-wrap: wrap;
 }
 
 
+.navtop::-webkit-scrollbar{
+background-color: antiquewhite;
+
+
+
+}
