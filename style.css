@@ -1,0 +1,121 @@
+*{
+
+box-sizing: border-box;
+padding:0;
+    margin: 0;
+
+}
+
+
+.navtop{
+
+position: fixed;
+
+width: 100%;
+
+padding: 7px;
+
+
+
+}
+.logo img{
+
+
+height: 50px;
+    width: 55px;
+}
+
+.divider{
+
+
+
+    padding: 90px;
+}
+.item{
+
+    margin: 2px;
+padding: 5px;
+
+
+    justify-content: space-around;
+flex-direction: row;
+display: flex;
+
+    list-style: none;
+}
+
+.main{
+margin-top:-60px;
+
+}
+
+.display{ border-radius:5px ; -webkit-border-radius:5px ; -moz-border-radius:5px ; -ms-border-radius:5px ; -o-border-radius:5px ;
+padding: 20px;
+margin: 5px;
+    border-width: 1px;
+    border-style: dashed;
+background: linear-gradient(#05c967,#0efa8c);
+
+text-align: center;
+
+}
+.display a{
+    color: rgb(243, 243, 243);
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+font-size: 30px; font-weight: 400;
+    text-decoration: none;
+}
+.arti1 , .arti2{
+color: rgb(243, 243, 243);
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+font-size: 30px; font-weight: 400;
+padding: 20px;
+justify-content: space-around;
+flex-direction:row  ;
+    display: flex;
+}
+
+.content{
+
+    flex-wrap: wrap;
+margin:7px;
+justify-content: space-around;
+flex-direction: column;
+display: flex;
+    background-color: antiquewhite;
+}
+
+.box{
+    justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+    display: flex;
+}
+
+.box label{
+    text-align: center;
+    
+    margin: 4px; padding: 30px; background-position: 40px; border-radius:40px ; width: 10rem; background-color: #05c977; -webkit-border-radius:40px ; -moz-border-radius:40px ; -ms-border-radius:40px ; -o-border-radius:40px ; border-style: none;
+}
+
+
+.sos {
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    background-clip:border-box;
+    position: absolute;
+    padding: 2px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(235, 7, 7);
+    border-radius: 60%;
+  
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+}
+
+
