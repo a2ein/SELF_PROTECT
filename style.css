@@ -128,15 +128,7 @@ width: 100%;
     position: fixed;
 }
 
-.navdown ul {
-flex-direction: row;
-display: flex;
-
-list-style: none;
-justify-content: space-around;
-font-weight: 500;
-font-size: 20px;
-font-family: 'Times New Roman', Times, serif;
+.navdown ul { flex-direction: row; display: flex; background-color: antiquewhite; background-size: contain; border-radius: 40px; list-style: none; justify-content: space-around; font-weight: 500; font-size: 20px; font-family: 'Times New Roman', Times, serif; -webkit-border-radius: 40px; -moz-border-radius: 40px; -ms-border-radius: 40px; -o-border-radius: 40px;
 }
 
 .navdown li{
