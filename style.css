@@ -53,17 +53,18 @@ margin-top:-60px;
 padding: 20px;
 margin: 5px;
     border-width: 1px;
-    border-style: dashed;
+    border-style: none;
 background: linear-gradient(#05c967,#0efa8c);
 
 text-align: center;
-
+ box-shadow: 2px 2px 4px #000;
 }
 .display a{
     color: rgb(243, 243, 243);
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
 font-size: 30px; font-weight: 400;
     text-decoration: none;
+   
 }
 .arti1 , .arti2{
 color: rgb(243, 243, 243);
@@ -82,7 +83,7 @@ margin:7px;
 justify-content: space-around;
 flex-direction: column;
 display: flex;
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.377);
 }
 
 .box{
@@ -93,6 +94,7 @@ flex-wrap: wrap;
 }
 
 .box label{
+     box-shadow: 2px 2px 4px #000;
     text-align: center;
     
     margin: 4px; padding: 30px; background-position: 40px; border-radius:40px ; width: 10rem; background-color: #05c977; -webkit-border-radius:40px ; -moz-border-radius:40px ; -ms-border-radius:40px ; -o-border-radius:40px ; border-style: none;
