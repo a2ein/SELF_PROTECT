@@ -102,15 +102,10 @@ flex-wrap: wrap;
 
 
 .sos {
-    align-self: center;
-    align-content: center;
-    align-items: center;
-    background-clip:border-box;
-    position: absolute;
-    padding: 2px;
+
     text-align: center;
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
     background-color: rgb(235, 7, 7);
     border-radius: 60%;
   
@@ -126,4 +121,28 @@ background-color: antiquewhite;
 
 
 
+}
+.navdown{
+margin-top:-25px;
+width: 100%;
+    position: fixed;
+}
+
+.navdown ul {
+flex-direction: row;
+display: flex;
+
+list-style: none;
+justify-content: space-around;
+font-weight: 500;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.navdown li{
+
+
+
+
+    background-color: #e4e4e44b;
 }
